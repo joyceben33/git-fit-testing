@@ -117,7 +117,7 @@ class ViewMeals extends Component {
                         <h5 className="text-center">Total Calories/ Calorie Goal: {this.props.user.calGoal}</h5>
                     </div>
                     <div className="col-3">
-                        <Link to={"/meals/macros"} ><button className="btn btn-primary view-macros">View Macros</button></Link>
+                        {/* <Link to={"/meals/macros"} ><button className="btn btn-primary view-macros">View Macros</button></Link> */}
                     </div>
                 </div>
             </div>
